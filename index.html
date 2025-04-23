@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Stanley Nwawuzie - Creative Web Developer specializing in React, Vue, Node.js, and Python. View portfolio and projects.">
+  <meta name="keywords" content="web developer, frontend developer, React, Vue, Node.js, Python, portfolio">
+  <meta name="author" content="Stanley Nwawuzie">
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Stanley Nwawuzie - Web Developer Portfolio">
+  <meta property="og:description" content="Creative Web Developer building fast, responsive & user-friendly websites with React, Vue, Node.js, and Python.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:type" content="website">
+  
+  <title>Stanley Nwawuzie - Web Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100"
+data-bs-theme="light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Welcome To My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+     <div class="offcanvas offcanvas-end text-bg-dark" id="offcanvasDarkNavbar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">My Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="flex-grow-1">
+
+    <!-- Hero Section -->
+    <section id="hero" class="py-5">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold">
+          My name is <br><span class="name">Stanley Nwawuzie</span>
+        </h1>
+        <p class="lead my-4">Creative Web Developer | Building Fast, Responsive & User-Friendly Websites</p>
+        <p>Specializing in React, Vue, Node.js, and Python. Let's build something amazing together!</p>
+        <a href="#portfolio" class="btn btn-primary btn-lg mt-3">View My Work</a>
+        <a href="#contact" class="btn btn-outline-light btn-lg mt-3">Get In Touch</a>
+      </div>
+    </section>
+    
+    <!-- about me section-->
+    <section id="about" class="about-section" data-aos="fade-up">
+  <div class="about-container">
+
+    <div class="about-header">
+      <h2 class="about-title" data-aos="fade-up">About Me</h2>
+      <p class="about-subtitle" data-aos="fade-up" data-aos-delay="100">Get to know me better</p>
+    </div>
+
+    <div class="about-content-grid">
+
+      <div class="about-image-column" data-aos="fade-right" data-aos-delay="200">
+        <img src="images/sharp.jpg" class="about-image" alt="Stanley Nwawuzie" loading="lazy">
+      </div>
+
+      <div class="about-text-column" data-aos="fade-left" data-aos-delay="300">
+        <h3>Hello, I'm Stanley!</h3>
+        <p class="about-intro">A passionate Web Developer based in Lagos, Nigeria with a mission to create beautiful, functional, and user-friendly digital experiences.</p>
+        <p>With over 5 years of experience in web development, I specialize in building modern web applications using cutting-edge technologies. My goal is to craft websites that not only look stunning but also perform exceptionally well.</p>
+        <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical writing.</p>
+
+        <div class="about-details-grid">
+          <div class="about-details-column">
+            <ul class="about-list">
+              <li><strong>Name:</strong> Stanley Nwawuzie</li>
+              <li><strong>Email:</strong> stancanwork@gmail.com</li>
+              <li><strong>Phone:</strong> +234 906 950 8407</li>
+            </ul>
+          </div>
+          <div class="about-details-column">
+            <ul class="about-list">
+              <li><strong>Location:</strong> Lagos, Nigeria</li>
+              <li><strong>Experience:</strong> 2+ years</li>
+              <li><strong>Freelance:</strong> Available</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-buttons">
+          <a href="your-resume.pdf" download class="about-button about-button-primary">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+          <a href="#contact" class="about-button about-button-outline">
+            <i class="fas fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+      </div> </div> </div> </section>
+      
+      <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">What I bring to the table</p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <!-- Frontend Skills -->
+          <div class="col-md-6 mb-4" data-aos="fade-up">
+            <h3 class="mb-4">Frontend Development</h3>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>HTML/CSS</span>
+                <span>95%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>JavaScript</span>
+                <span>90%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>React.js</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Vue.js</span>
+                <span>80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Backend Skills -->
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="mb-4">Backend Development</h3>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Node.js</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Python</span>
+                <span>75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>MongoDB</span>
+                <span>80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item mb-3">
+              <div class="d-flex justify-content-between">
+                <span>SQL</span>
+                <span>70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+  <!-- Tools & Technologies -->
+        <div class="row mt-4">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="mb-4 text-center">Tools & Technologies</h3>
+            <div class="tech-icons">
+              <div class="tech-icon">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-docker"></i>
+                <span>Docker</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-aws"></i>
+                <span>AWS</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-figma"></i>
+                <span>Figma</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-jira"></i>
+                <span>Jira</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-sass"></i>
+                <span>Sass</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-bootstrap"></i>
+                <span>Bootstrap</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-npm"></i>
+                <span>npm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    
+ 
+    <!-- Portfolio Section with Filtering -->
+    <section id="portfolio" class="py-1">
+      <div class="container text-center">
+        <h2 class="section-title mb-3" data-aos="fade-up">MY PROJECTS</h2>
+        <p class="section-subtitle mb-5" data-aos="fade-up" data-aos-delay="100">Check out some of my latest work</p>
+        
+        <!-- Project Filter Buttons -->
+        <div class="portfolio-filters mb-4" data-aos="fade-up" data-aos-delay="200">
+          <button class="btn btn-filter active" data-filter="all">All</button>
+          <button class="btn btn-filter" data-filter="web">Web Development</button>
+          <button class="btn btn-filter" data-filter="app">App Design</button>
+          <button class="btn btn-filter" data-filter="ui">UI/UX</button>
+        </div>
+        
+        <!-- Carousel -->
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Carousel indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Project 1"></button>
+            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Project 2"></button>
+            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Project 3"></button>
+            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Project 4"></button>
+          </div>
+          
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <!-- Project 1 -->
+            <div class="carousel-item active" data-category="web">
+              <div class="card project-card mx-auto shadow" style="max-width: 540px;" data-aos="fade-up">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="images/image1.jpeg" class="img-fluid rounded-start h-100" alt="Project 1" style="object-fit: cover;" loading="lazy">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body text-start d-flex flex-column h-100">
+                      <h5 class="card-title">WISTIA Video Editor</h5>
+                      <p class="card-text">Editing site for all video projects. Converting your videos to all editable formats.</p>
+                      <div class="tech-stack">
+                        <span class="badge bg-light text-dark me-1">React</span>
+                        <span class="badge bg-light text-dark me-1">Node.js</span>
+                        <span class="badge bg-light text-dark">FFMPEG</span>
+                      </div>
+                      <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="carousel-item" data-category="ui">
+              <div class="card project-card mx-auto shadow" style="max-width: 540px;" data-aos="fade-up">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="images/image2.jpeg" class="img-fluid rounded-start h-100" alt="Project 2" style="object-fit: cover;" loading="lazy">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body text-start d-flex flex-column h-100">
+                      <h5 class="card-title">Webinar Landing Page</h5>
+                      <p class="card-text">A simple landing webinar page for easy registering</p>
+                      <div class="tech-stack">
+                        <span class="badge bg-light text-dark me-1">HTML5</span>
+                        <span class="badge bg-light text-dark me-1">CSS3</span>
+                        <span class="badge bg-light text-dark">JavaScript</span>
+                      </div>
+                      <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="carousel-item" data-category="web">
+              <div class="card project-card mx-auto shadow" style="max-width: 540px;" data-aos="fade-up">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="images/image3.jpeg" class="img-fluid rounded-start h-100" alt="Project 3" style="object-fit: cover;" loading="lazy">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body text-start d-flex flex-column h-100">
+                      <h5 class="card-title">Hosting Landing Page</h5>
+                      <p class="card-text">Host your website and make it visible to the world 🌎</p>
+                      <div class="tech-stack">
+                        <span class="badge bg-light text-dark me-1">React</span>
+                        <span class="badge bg-light text-dark me-1">Bootstrap</span>
+                        <span class="badge bg-light text-dark">Firebase</span>
+                      </div>
+                      <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <div class="carousel-item" data-category="app">
+              <div class="card project-card mx-auto shadow" style="max-width: 540px;" data-aos="fade-up">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="images/image4.jpeg" class="img-fluid rounded-start h-100" alt="Project 4" style="object-fit: cover;" loading="lazy">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body text-start d-flex flex-column h-100">
+                      <h5 class="card-title">Landing Page 2</h5>
+                      <p class="card-text">Landing page where you can book and make life easier for you </p>
+                      <div class="tech-stack">
+                        <span class="badge bg-light text-dark me-1">Vue.js</span>
+                        <span class="badge bg-light text-dark me-1">Tailwind</span>
+                        <span class="badge bg-light text-dark">Node.js</span>
+                      </div>
+                      <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Carousel controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title" data-aos="fade-up">What People Say</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Client testimonials that showcase my work</p>
+          </div>
+        </div>
+        
+        <div class="row g-4">
+          <!-- Testimonial 1 -->
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-rating mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"Stanley delivered our e-commerce platform ahead of schedule with impeccable attention to detail. His communication was outstanding throughout the project."</p>
+              </div>
+              <div class="testimonial-author d-flex align-items-center mt-3">
+                <div class="testimonial-avatar me-3">
+                  <img src="images/good.jpg" alt="Client" loading="lazy">
+                </div>
+                <div>
+                  <h5 class="mb-0">Dr. Olivia Johnson</h5>
+                  <small>CEO, FashionHub</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-rating mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"Working with Stanley was a pleasure! He transformed our outdated website into a modern, responsive platform that has significantly increased our conversion rates."</p>
+              </div>
+              <div class="testimonial-author d-flex align-items-center mt-3">
+                <div class="testimonial-avatar me-3">
+                  <img src="images/goood.jpg" alt="Client" loading="lazy">
+                </div>
+                <div>
+                  <h5 class="mb-0">Dr. Anuli Williams</h5>
+                  <small>Marketing Director, TechSolutions</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-rating mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"Stanley's expertise in React and Node.js helped us create a seamless user experience for our SaaS platform. His problem-solving skills are exceptional!"</p>
+              </div>
+              <div class="testimonial-author d-flex align-items-center mt-3">
+                <div class="testimonial-avatar me-3">
+                  <img src="images/gooood.jpg" alt="Client" loading="lazy">
+                </div>
+                <div>
+                  <h5 class="mb-0">Prof. Dora Akunyili</h5>
+                  <small>Product Manager, CloudServices</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Blog Section -->
+    <section id="blog" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title" data-aos="fade-up">Latest Articles</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Insights and tutorials from my development journey</p>
+          </div>
+        </div>
+        
+        <div class="row g-4">
+          <!-- Blog Post 1 -->
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="blog-card">
+              <div class="blog-img">
+                <img src="images/blog.jpeg" alt="Blog Post" class="img-fluid" loading="lazy">
+                <div class="blog-date">
+                  <span class="day">15</span>
+                  <span class="month">Mar</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-category">
+                  <span>React</span>
+                </div>
+                <h3 class="blog-title">Building Scalable React Applications</h3>
+                <p class="blog-excerpt">Learn the best practices for building large-scale React applications that are maintainable and performant.</p>
+                <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blog Post 2 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="blog-card">
+              <div class="blog-img">
+                <img src="images/download.jpeg" alt="Blog Post" class="img-fluid" loading="lazy">
+                <div class="blog-date">
+                  <span class="day">28</span>
+                  <span class="month">Feb</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-category">
+                  <span>Node.js</span>
+                </div>
+                <h3 class="blog-title">Building RESTful APIs with Node.js</h3>
+                <p class="blog-excerpt">A comprehensive guide to creating robust and secure APIs using Node.js and Express.</p>
+                <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blog Post 3 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="blog-card">
+              <div class="blog-img">
+                <img src="images/blog2.jpeg" alt="Blog Post" class="img-fluid" loading="lazy">
+                <div class="blog-date">
+                  <span class="day">10</span>
+                  <span class="month">Feb</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-category">
+                  <span>UI/UX</span>
+                </div>
+                <h3 class="blog-title">The Art of Creating User-Friendly Interfaces</h3>
+                <p class="blog-excerpt">Discover the principles and techniques for designing interfaces that users love to interact with.</p>
+                <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="btn btn-primary btn-lg">View All Articles</a>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-light">
+  <div class="container">
+      <!-- CTA Header -->
+        <div class="cta-header text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">Ready to Start Your Project?</h2>
+          <p class="section-subtitle mb-4">Let's create something amazing together!</p>
+          <div class="cta-divider mx-auto"></div>
+        </div>
+    <!-- Section Header -->
+    <div class="row text-center mb-5">
+      <div class="col-12">
+        <h2 class="mb-3">Let's Connect!</h2>
+        <p class="lead">Have a question or just want to say hi? Hit me up!</p>
+      </div>
+    </div>
+    
+    <!-- Contact Information -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-4 mb-4">
+        <div class="contact-info p-4 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0d6efd" class="bi bi-geo-alt mb-3" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.482 31.482 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+          </svg>
+          <h5>Location</h5>
+          <p class="mb-0">Lagos, Nigeria</p>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <div class="contact-info p-4 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0d6efd" class="bi bi-envelope-open mb-3" viewBox="0 0 16 16">
+            <path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM15 7.383l-4.778 2.867L15 13.117zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2Z"/>
+          </svg>
+          <h5>Email</h5>
+          <p class="mb-0">Stancanwork@gmail.com</p>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <div class="contact-info p-4 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0d6efd" class="bi bi-calendar-check mb-3" viewBox="0 0 16 16">
+            <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+          </svg>
+          <h5>Availability</h5>
+          <p class="mb-0">Open for freelance & full-time roles</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <!-- Contact Form Column -->
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h4 class="card-title mb-4">Send Me a Message</h4>
+            <form>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Social Links Column -->
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <h4 class="card-title mb-4">Connect With Me</h4>
+            
+            <!-- Download CV Button -->
+            <div class="mb-4 text-center">
+              <a href="your-resume.pdf" download class="btn btn-outline-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+                  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                </svg>
+                Download CV
+              </a>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="social-links d-flex flex-wrap justify-content-center gap-3 mt-4">
+              <a href="https://twitter.com/yourhandle" target="_blank" class="social-icon" aria-label="Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg>
+              </a>
+              
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+              </a>
+              
+              <a href="https://github.com/yourusername" target="_blank" class="social-icon" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+              </a>
+              
+              <a href="mailto:youremail@example.com" class="social-icon" aria-label="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Priceless Tech. All rights reserved.</p>
+    </div>
+  </footer>
+  <button onclick="scrollToTop()" id="scrollTopBtn">↑</button>
+
+  <!-- Scripts -->
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,    // animation speed
+      once: true        // only animate once
+    });
+  </script>
+
+  <!-- Then your existing scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</body>
+</html>
